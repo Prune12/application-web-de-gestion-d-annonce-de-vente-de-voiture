@@ -96,7 +96,7 @@ function displayData(data) {
   }
 // Dans la page de résultats
   
-  fetch('http://192.168.43.152:8080/cars')
+  fetch('http://192.168.43.152:8080/api/cars')
     .then(response => response.json())
     .then(data => displayResults(data));
  

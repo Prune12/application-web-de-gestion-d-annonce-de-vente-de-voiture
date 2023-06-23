@@ -131,7 +131,7 @@ function displayData2(data) {
     }
   });
 }
-fetch('http://192.168.43.152:8080/cars')
+fetch('http://192.168.43.152:8080/api/cars')
   .then(response => response.json())
   .then(data => {
     
